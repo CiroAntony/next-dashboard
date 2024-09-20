@@ -1,0 +1,68 @@
+import { Product } from '../types/products';
+
+export const mockProducts: Product[] = [
+  {
+    Cod: 1,
+    Descripción: "CottonSoft Algodón Premium",
+    Descripción2: "100% algodón, 150 cm de ancho",
+    Marca: "CottonSoft",
+    Cod_proveedor: 201,
+    Costo_unitario: 5.99,
+    Stock_total: 60,
+    igv: 18,
+    Valor_de_mercancia: 359.40,
+    Fecha_creación: "2024-01-15",
+    Usuario: "admin",
+    Ult_modificación: "2024-01-15",
+    Usuario_modificador: "admin",
+    Estado: true
+  },
+  {
+    Cod: 2,
+    Descripción: "SilkElegance Seda Natural",
+    Descripción2: "100% seda, 120 cm de ancho",
+    Marca: "SilkElegance",
+    Cod_proveedor: 202,
+    Costo_unitario: 29.99,
+    Stock_total: 90,
+    igv: 18,
+    Valor_de_mercancia: 2699.10,
+    Fecha_creación: "2024-01-16",
+    Usuario: "admin",
+    Ult_modificación: "2024-01-16",
+    Usuario_modificador: "admin",
+    Estado: true
+  },
+  {
+    Cod: 3,
+    Descripción: "WoolCraft Lana Merino",
+    Descripción2: "100% lana merino, 140 cm de ancho",
+    Marca: "WoolCraft",
+    Cod_proveedor: 203,
+    Costo_unitario: 15.99,
+    Stock_total: 100,
+    igv: 18,
+    Valor_de_mercancia: 1599.00,
+    Fecha_creación: "2024-01-16",
+    Usuario: "admin",
+    Ult_modificación: "2024-01-16",
+    Usuario_modificador: "admin",
+    Estado: true
+  },
+  {
+    Cod: 4,
+    Descripción: "LinenLux Lino Europeo",
+    Descripción2: "100% lino, 160 cm de ancho",
+    Marca: "LinenLux",
+    Cod_proveedor: 204,
+    Costo_unitario: 12.99,
+    Stock_total: 40,
+    igv: 18,
+    Valor_de_mercancia: 519.60,
+    Fecha_creación: "2024-01-16",
+    Usuario: "admin",
+    Ult_modificación: "2024-01-16",
+    Usuario_modificador: "admin",
+    Estado: true
+  },
+];
